@@ -117,7 +117,7 @@ info_por_topico.sort_values(['Count'], inplace = True, ascending = False)
 info_por_topico
 # %%
 # Guardamos modelo
-topic_model.save(f"modelo_topicos_{date}")
+topic_model.save(f"modelo_topicos_actualizado")
 # %%
 #Documentos asociados a tópicos
 df['topic'] = topics
