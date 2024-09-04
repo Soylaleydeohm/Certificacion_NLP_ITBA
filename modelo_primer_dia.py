@@ -263,7 +263,7 @@ for topic in topic_model.get_topics().keys():
             to_date = datetime.strptime(date, '%Y-%m-%d')+timedelta(1),#Agrego un día para que lo testee al siguiente
             from_date = parse(date),
             index = topic,
-            total_docs = info_por_topico[info_por_topico.Topic == topic].Count.values[0],
+            total_docs = info_por_topico[info_por_topico.Topic == topic].docs_sobre_threshold.values[0],
             keywords = get_topic_keywords(topic),
             entities = get_topic_entities(topic),
             name = get_topic_name(topic_model.topic_representations_[topic]),
