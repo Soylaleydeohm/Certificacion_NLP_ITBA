@@ -1,8 +1,7 @@
 # Certificacion_NLP_ITBA
 
-Para el primer día emplear modelo_primer_dia.py
-
-Luego, para agregar más noticias, emplear modelos_merged.py
+Correr iniciar_modelo.py. Se debe tener descargado modelo_primer_dia_func.py modelos_merged_func.py functions.py opensearch_data_model.py
+En las notebooks modelo_primer_dia.py y modelos_merged.py se encuentra la lógica original
 
 Entre las posibles mejoras a futuro, se encuentra lo siguiente:
   
