@@ -1,6 +1,7 @@
 # Certificacion_NLP_ITBA
 
 Correr iniciar_modelo.py. Se debe tener descargado modelo_primer_dia_func.py modelos_merged_func.py functions.py opensearch_data_model.py
+
 En las notebooks modelo_primer_dia.py y modelos_merged.py se encuentra la lógica original
 
 Entre las posibles mejoras a futuro, se encuentra lo siguiente:
